@@ -1,0 +1,37 @@
+{{! Hugging Face Docstring Template }}
+{{summaryPlaceholder}}
+
+{{extendedSummaryPlaceholder}}
+{{#parametersExist}}
+
+Args:
+{{#args}}
+    {{var}} (`{{typePlaceholder}}`):
+        {{descriptionPlaceholder}}
+{{/args}}
+{{#kwargs}}
+    {{var}} (`{{typePlaceholder}}`, *optional*, defaults to {{&default}}):
+        {{descriptionPlaceholder}}
+{{/kwargs}}
+{{/parametersExist}}
+{{#exceptionsExist}}
+
+Raises:
+{{#exceptions}}
+    `{{type}}`: {{descriptionPlaceholder}}
+{{/exceptions}}
+{{/exceptionsExist}}
+{{#returnsExist}}
+
+Returns:
+{{#returns}}
+    `{{typePlaceholder}}`: {{descriptionPlaceholder}}
+{{/returns}}
+{{/returnsExist}}
+{{#yieldsExist}}
+
+Yields:
+{{#yields}}
+    `{{typePlaceholder}}`: {{descriptionPlaceholder}}
+{{/yields}}
+{{/yieldsExist}}
