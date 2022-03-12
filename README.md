@@ -17,5 +17,5 @@
   2. search for `autodocstring`
   3. copy the path `hugginface.mustache` to in the *Auto Docstring: Custom Template Path* input bar
   
-  ![img][https://github.com/FrancescoSaverioZuppichini/HuggingFaceAutoDocstring/blob/main/1.png?raw=true]
+  ![img](https://github.com/FrancescoSaverioZuppichini/HuggingFaceAutoDocstring/blob/main/1.png?raw=true
   
